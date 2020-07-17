@@ -19,7 +19,7 @@
   "homepage": "https://bitbucket.org/Noskilo/pop-api#readme",
   "dependencies": {
     "@elastic/elasticsearch": "^7.5.0",
-    "apollo-server-express": "^2.9.12",
+    "apollo-server-express": "^2.14.2",
     "aws-sdk": "^2.584.0",
     "bcryptjs": "^2.4.3",
     "dataloader": "^2.0.0",
