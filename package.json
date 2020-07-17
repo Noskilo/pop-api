@@ -1,0 +1,46 @@
+{
+  "name": "pop-api",
+  "version": "0.0.1",
+  "description": "An API for the POP961 online store.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./dist/graphql.js",
+    "build": "tsc",
+    "dev": "ts-node-dev graphql.ts",
+    "dev-sls": "SLS_DEBUG=* sls offline start --port 4000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://Noskilo@bitbucket.org/Noskilo/pop-api.git"
+  },
+  "author": "Michael Iskandarani",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/Noskilo/pop-api#readme",
+  "dependencies": {
+    "@elastic/elasticsearch": "^7.5.0",
+    "apollo-server-express": "^2.9.12",
+    "aws-sdk": "^2.584.0",
+    "bcryptjs": "^2.4.3",
+    "dataloader": "^2.0.0",
+    "express": "^4.17.1",
+    "graphql": "^14.5.8",
+    "graphql-mqtt-subscriptions": "^1.2.0",
+    "jose": "^1.16.0",
+    "mysql2": "^2.0.1",
+    "reflect-metadata": "^0.1.13",
+    "type-graphql": "^0.17.5",
+    "typeorm": "^0.2.21"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.37",
+    "@types/bcryptjs": "^2.4.2",
+    "@types/express": "^4.17.2",
+    "@types/node": "^12.12.14",
+    "serverless-offline": "^5.12.1",
+    "serverless-plugin-typescript": "^1.1.9",
+    "ts-node": "^8.5.4",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^3.7.3"
+  }
+}
