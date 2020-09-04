@@ -29,7 +29,7 @@
     "jose": "^1.16.0",
     "mysql2": "^2.0.1",
     "reflect-metadata": "^0.1.13",
-    "type-graphql": "^0.17.5",
+    "type-graphql": "^0.17.6",
     "typeorm": "^0.2.21"
   },
   "devDependencies": {
