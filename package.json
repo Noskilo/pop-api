@@ -30,7 +30,7 @@
     "mysql2": "^2.0.1",
     "reflect-metadata": "^0.1.13",
     "type-graphql": "^0.17.5",
-    "typeorm": "^0.2.21"
+    "typeorm": "^0.2.25"
   },
   "devDependencies": {
     "@types/aws-lambda": "^8.10.37",
