@@ -23,7 +23,7 @@
     "aws-sdk": "^2.584.0",
     "bcryptjs": "^2.4.3",
     "dataloader": "^2.0.0",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "graphql": "^14.5.8",
     "graphql-mqtt-subscriptions": "^1.2.0",
     "jose": "^1.16.0",
